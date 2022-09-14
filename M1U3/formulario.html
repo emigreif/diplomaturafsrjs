@@ -1,21 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>formulario de contacto</title>
 </head>
+
 <body>
     <h1>Tus datos de contacto</h1>
-    nombre y apellido
-    mail
-    telefono
-    consulta
-    enviar
+
+
     <form action="" method="">
-        
+        <p>
+            <label for="nombre">nombre: </label><input type="text" value="nombre" ><br>
+            <label for="apellido">apellido: </label><input type="text" value="apellido"><br>
+            <label for="mail">mail: </label><input type="email" value="mail"><br>
+            <label for="telefono">telefono: </label> <input type="number" value="telefono">
+        </p>
+        <p>
+            <label for="consulta">consulta</label> <textarea name="consulta" cols="30" rows="5"></textarea>
+        </p>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="borrar">
+        </p>
+
     </form>
 
 </body>
+
 </html>

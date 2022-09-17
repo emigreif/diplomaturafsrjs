@@ -23,7 +23,7 @@ margin: 45px;
 }
 p{
     border: 2px;
-    color: blue;
+    color: #0000ff;
     margin-left: 50px;
 }
 li{
@@ -35,4 +35,8 @@ li{
 }
 #foto{
    margin-left: 100px;
+}
+.pruebaconclases{
+    color: orange;
+    background-color:grey ;
 }

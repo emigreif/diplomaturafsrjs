@@ -98,7 +98,7 @@ p {
 .pruebaconclases {
     background-color: gold;
     box-sizing: border-box;
-    padding: 25px;
+    padding: 0px 15px 0px 15px;
     font-family: 'Ballet', cursive;
     width: fit-content;
     box-shadow: 25px 25px 25px 10px rgba(128, 128, 128, 0.548);

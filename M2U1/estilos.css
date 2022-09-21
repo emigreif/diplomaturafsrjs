@@ -1,0 +1,52 @@
+.caja1 {
+    height: auto;
+    width: 250px;
+
+    font-family: 'Lemonada', cursive;
+    box-sizing: border-box;
+    padding: 5px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(352deg, rgba(2, 0, 36, 1) 20%, rgba(9, 62, 121, 1) 55%, rgba(0, 212, 255, 1) 100%);
+}
+
+.caja2 {
+    height: auto;
+    width: 250px;
+    box-sizing: border-box;
+    font-family: 'Cherish', cursive;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 0px 20px 20px 0px;
+    border: 5px ridge #ff6550;
+   
+}
+div{
+    float: left;
+    margin: 15px;
+}
+
+.caja3 {
+    height: auto;
+    width: 250px;
+    box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+    padding: 5px;
+    background-color: aliceblue;
+    border-radius: 100px 100px 100px 0px;
+    border: 5px ridge #ff6550;
+    box-shadow: -4px -5px 27px 0px rgba(176, 99, 99, 0.59);
+
+}
+
+.texto {
+
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: aliceblue;
+    columns: 3;
+    font-family: 'Ballet', cursive;
+    column-rule: 2px solid red;
+}
+.texto h2{
+    font-family: 'Cherish', cursive;
+}

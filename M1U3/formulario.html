@@ -5,31 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>formulario de contacto</title>
 </head>
 
 <body>
     <h1>Tus datos de contacto</h1>
-
-
     <form action="" method="">
-        <p>
-            <label for="nombre">nombre: </label><input type="text" value="nombre" ><br>
-            <label for="apellido">apellido: </label><input type="text" value="apellido"><br>
-            <label for="mail">mail: </label><input type="email" value="mail"><br>
-            <label for="telefono">telefono: </label> <input type="number" value="telefono">
-        </p>
-        <p>
-            <label for="consulta">consulta</label> <textarea name="consulta" cols="30" rows="5"></textarea>
-        </p>
-
-        <p>
-            <input type="submit" value="enviar">
-            <input type="reset" value="borrar">
-        </p>
-
-    </form>
-
+        <label for="nombre" class="formulario">nombre: </label><br>
+        <input type="text" value=""><br>
+        <label for="apellido" class="formulario">apellido: </label><br>
+        <input type="text" value=""><br>
+        <label for="mail" class="formulario">mail: </label><br>
+        <input type="email" value=""><br>
+        <label for="telefono" class="formulario">telefono: </label><br>
+        <input type="number" value=""><br>
+        <label for="consulta" class="formulario">consulta</label> <br>
+        <textarea name="consulta"  rows="5"></textarea><br>
+        <input class="boton" type="submit" value="enviar ">
+        <input class="boton" type="reset" value="borrar">
 </body>
 
 </html>

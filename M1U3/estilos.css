@@ -1,3 +1,15 @@
+form {
+    color: grey;
+    padding: 20px;
+    height: auto;
+    width: 350px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 3px;
+    border: 3px silver solid;
+    margin-left: 70px;
+}
+
 h1 {
     text-align: center;
     font-size: 50px;
@@ -43,6 +55,11 @@ h3 {
     box-shadow: 5px 5px 0px 0px rgba(49, 47, 80, 0.59);
 }
 
+input,
+textarea {
+    border: 2px silver solid;
+    width: 280px;
+}
 
 li {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -58,23 +75,33 @@ p {
     font-size: 50px;
 }
 
+.boton {
+    width: 140px;
+}
+
 .contenedor {
     margin: 15px;
     overflow: hidden;
     border: 5px gold solid;
+    padding: 10px;
+    width: fit-content;
 }
 
 .listas {
     float: left;
     border: 5px silver solid;
     margin: 5px;
+    height: 170px;
+    width: fit-content;
 }
 
 .pruebaconclases {
-    background-color: grey;
+    background-color: gold;
     box-sizing: border-box;
-    padding: 5px;
+    padding: 25px;
     font-family: 'Ballet', cursive;
+    width: fit-content;
+    box-shadow: 25px 25px 25px 10px rgba(128, 128, 128, 0.548);
 }
 
 #destacado {

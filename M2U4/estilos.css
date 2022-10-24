@@ -1,17 +1,23 @@
 .container {
     background-color: black;
-    border: greenyellow solid 3px;
+    border: rgba(191, 170, 241, 0.959)  solid 3px;
 
 }
 
 .row {
     padding: 10px;
     background-color: white;
-    border: greenyellow solid 2px;
+    border: rgba(191, 170, 241, 0.959)  solid 2px;
 
 }
 
 .col {
     background-color: blue;
-    border: greenyellow solid 1px;
+    border: rgba(191, 170, 241, 0.959) solid 1px;
+}
+.barralateral{
+    background-color:rgb(2, 157, 218);
+    color: beige; 
+    font-size: larger; 
+    font-weight: bold ;
 }

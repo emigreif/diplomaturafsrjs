@@ -1,21 +1,17 @@
-.container{
+.container {
     background-color: black;
     border: greenyellow solid 3px;
-   
+
 }
-.row{
+
+.row {
     padding: 10px;
     background-color: white;
     border: greenyellow solid 2px;
 
 }
-.col{
-background-color: blue;
-border: greenyellow solid 1px;
 
-}
-.deabajo{
-    text-align: center;
-    align-items: center;
-    justify-items: center;
+.col {
+    background-color: blue;
+    border: greenyellow solid 1px;
 }

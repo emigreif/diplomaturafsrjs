@@ -94,7 +94,7 @@ h2{
 .historia p{
     font-size: 12px;
 }
-personas{
+.personas{
     display: flex;
     justify-content: space-between;
 }

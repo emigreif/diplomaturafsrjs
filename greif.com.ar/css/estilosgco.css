@@ -60,11 +60,13 @@ footer {
     position: fixed;
     width: 100%;
     bottom: 0;
-    padding: 10px;
+
+
 }
-footer p{
-    font-size: large;
-    margin-right: 100px;
+
+footer p {
+    font-size: small;
+    margin-right: 50px;
 }
 
 .holder {
@@ -91,29 +93,37 @@ h2 {
     font-style: italic;
     font-weight: bolder;
 }
-.mision p{
+
+.mision p {
     text-align: justify;
 }
-.mision h3{
+
+.mision h3 {
     margin-top: 20px;
 }
-h3{
+
+h3 {
     color: indigo;
 }
-.conteservicios{
+
+.conteservicios {
     display: inline-flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-between;
+    margin: 5px;
+
+    justify-content: space-between;
+    padding: 05px;
 }
+
 .servicio {
     border: 1px solid gold;
-    
+    text-align: justify;
     padding: 10px;
     margin: 10px 0;
     display: flex;
-    gap: 32px;
-    width: 23%;
+    width: 30%;
 }
 
 .servicio .info h4 {
@@ -122,16 +132,24 @@ h3{
     font-style: italic;
     border-bottom: 1px solid indigo;
     padding-bottom: 10px;
+
 }
+
+.serv {
+    font-size: large;
+    color: indigo;
+}
+
 
 .servicio .info p {
     font-size: 13px;
+
 }
 
-.servicio img {
-    border-radius: 13px;
-    display: block;
-    max-width: 225px;
+.info img {
+    max-width: 100%;
+
+
 }
 
 .galeria {

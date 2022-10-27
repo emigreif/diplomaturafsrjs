@@ -152,13 +152,13 @@ h3 {
 
 }
 
-.galeria {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
+.cursos {
+   margin-bottom: 100px;
+   text-align: justify;
 }
-
-
+.cursos h1{
+    margin-bottom: 50px;
+}
 .contacto {
     display: flex;
     gap: 24px;

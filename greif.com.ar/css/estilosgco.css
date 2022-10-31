@@ -5,6 +5,14 @@ body {
 }
 
 header {
+    background:
+radial-gradient(circle farthest-side at 0% 50%,black 23.5%,rgba(240,166,17,0) 0)21px 30px,
+radial-gradient(circle farthest-side at 0% 50%,indigo 24%,rgba(240,166,17,0) 0)19px 30px,
+linear-gradient(black 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,black 0)0 0,
+linear-gradient(150deg,black 24%,indigo 0,indigo 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,indigo 0,indigo 76%,black 0)0 0,
+linear-gradient(30deg,black 24%,indigo 0,indigo 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,indigo 0,indigo 76%,black 0)0 0,
+linear-gradient(90deg,indigo 2%,black 0,black 98%,indigo 0%)0 0 black;
+background-size: 40px 60px;
     background-color: black;
     padding: 5px 0;
 }

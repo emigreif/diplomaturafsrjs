@@ -6,13 +6,13 @@ body {
 
 header {
     background:
-radial-gradient(circle farthest-side at 0% 50%,black 23.5%,rgba(240,166,17,0) 0)21px 30px,
-radial-gradient(circle farthest-side at 0% 50%,indigo 24%,rgba(240,166,17,0) 0)19px 30px,
-linear-gradient(black 14%,rgba(240,166,17,0) 0, rgba(240,166,17,0) 85%,black 0)0 0,
-linear-gradient(150deg,black 24%,indigo 0,indigo 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,indigo 0,indigo 76%,black 0)0 0,
-linear-gradient(30deg,black 24%,indigo 0,indigo 26%,rgba(240,166,17,0) 0,rgba(240,166,17,0) 74%,indigo 0,indigo 76%,black 0)0 0,
-linear-gradient(90deg,indigo 2%,black 0,black 98%,indigo 0%)0 0 black;
-background-size: 40px 60px;
+        radial-gradient(circle farthest-side at 0% 50%, black 23.5%, rgba(240, 166, 17, 0) 0)21px 30px,
+        radial-gradient(circle farthest-side at 0% 50%, indigo 24%, rgba(240, 166, 17, 0) 0)19px 30px,
+        linear-gradient(black 14%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 85%, black 0)0 0,
+        linear-gradient(150deg, black 24%, indigo 0, indigo 26%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 74%, indigo 0, indigo 76%, black 0)0 0,
+        linear-gradient(30deg, black 24%, indigo 0, indigo 26%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 74%, indigo 0, indigo 76%, black 0)0 0,
+        linear-gradient(90deg, indigo 2%, black 0, black 98%, indigo 0%)0 0 black;
+    background-size: 40px 60px;
     background-color: black;
     padding: 5px 0;
 }
@@ -179,47 +179,41 @@ h3 {
     width: 100%;
 }
 
+.formcont  {
+    width: 60%;
+
+
+} 
+.formdat{
+    width:39% ;
+   
+}
+
 .datos p {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .datos ul li {
-    font-size: 13px;
+    font-size: 20px;
 }
 
-.formulario p {
-    display: flex;
-}
+.mapa {
+    border: 1px solid gold;
 
-.formulario p label {
-    min-width: 80px;
-    display: flex;
-    align-items: center;
-}
+    }
 
-.formulario p:nth-child(4) {
-    align-items: start;
-}
 
-.formulario textarea {
-    resize: none;
-    height: 150px;
-    text-align: justify;
-}
 
-.formulario input[type="submit"] {
-    background: #6da9ed;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
-    color: white;
-    font-size: 16px;
-    padding: 6px 20px;
-    width: auto;
+.mapouter {
     position: relative;
-    left: 5rem;
-    cursor: pointer;
+    text-align: right;
+    width: 600px;
+    height: 400px;
 }
 
-.formulario input[type="submit"]:hover {
-    background-color: indigo;
-}
 
+
+.gmap_iframe {
+    width: 600px !important;
+    height: 400px !important;
+}

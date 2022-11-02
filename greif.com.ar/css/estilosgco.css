@@ -179,14 +179,15 @@ h3 {
     width: 100%;
 }
 
-.formcont  {
+.formcont {
     width: 60%;
 
 
-} 
-.formdat{
-    width:39% ;
-   
+}
+
+.formdat {
+    width: 39%;
+
 }
 
 .datos p {
@@ -200,7 +201,7 @@ h3 {
 .mapa {
     border: 1px solid gold;
 
-    }
+}
 
 
 
@@ -217,3 +218,4 @@ h3 {
     width: 600px !important;
     height: 400px !important;
 }
+

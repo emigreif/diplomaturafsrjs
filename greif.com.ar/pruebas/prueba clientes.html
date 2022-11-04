@@ -13,6 +13,22 @@
     <header>
         <h1>clientes</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a class="activo" href="">clientes</a></li>
+            <li><a href="">presupuestos</a></li>
+            <li><a href="">obras</a></li>
+            <li><a href="">produccion</a></li>
+            <li><a href="">cotizacion</a></li>
+            <li><a href="">pedidos</a></li>
+            <li><a href="">calendario fabricacion</a></li>
+            <li><a href="">calendario montaje</a></li>
+            <li><a href="">pendientes</a></li>
+            <li><a href="">facturacion</a></li>
+            <li><a href="">gastos</a></li>
+
+        </ul>
+    </nav>
     <div class="cont">
 
         <div class="altacl">
@@ -25,17 +41,17 @@
                 <label for="cliente final">cliente final</label>
             </div>
             <div>
-                <form action="formulario" method="post">
-                    <input name="codigocliente" type="text" placeholder="codigo cliente" />
+                <form class="formi" action="formulario" method="post">
 
+                    <input name="codigocliente" type="text" placeholder="codigo cliente" />
                     <input name="nombre" type="text" placeholder="nombre" />
                     <input name="apellido" type="text" placeholder="apellido" />
                     <input name="empresa" type="text" placeholder="empresa" />
                     <label for="tipoemp"></label>
-                    <select name="tipoemp" id="tipoemp">
-                        <option value="rigatoni">Estudio Arquitectura</option>
-                        <option value="dave">Constructora</option>
-                        <option value="pumpernickel">Desarrolladora</option>
+                    <select name="tipoemp">
+                        <option value="1">Estudio Arquitectura</option>
+                        <option value="2">Constructora</option>
+                        <option value="3">Desarrolladora</option>
                     </select>
                     <input name="cuit" type="text" placeholder="cuit" />
                     <input name="usuario" type="text" placeholder="usuario" />
@@ -45,7 +61,10 @@
             </div>
         </div>
         <div class="clientes">
-<h3>+ agregar cliente</h3>
+            <h3>+ agregar cliente</h3>
+            <h3>+ ayuda(como cargar los presupuestos)</h3>
+            <h3>buscador</h3>
+            <h3>base con lista de clientes desde aca se puede redirigir nuevo presupuesto o nueva obra</h3>
             <ul>
                 <h2>lista clientes</h2>
                 <li>
@@ -76,7 +95,7 @@
             </ul>
         </div>
     </div>
-   
+
 </body>
 
 </html>

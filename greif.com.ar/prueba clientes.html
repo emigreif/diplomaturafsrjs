@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/prueba.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>clientes</h1>
+    </header>
+    <div class="cont">
+
+        <div class="altacl">
+            <h2 style="border-bottom: white solid 1px;">nuevo cliente</h2>
+
+            <div class="chaca">
+                <input type="radio" id="empresa" name="drone" value="empresa" checked>
+                <label for="empresa">empresa</label>
+                <input type="radio" id="cliente final" name="drone" value="cliente final">
+                <label for="cliente final">cliente final</label>
+            </div>
+            <div>
+                <form action="formulario" method="post">
+                    <input name="codigocliente" type="text" placeholder="codigo cliente" />
+
+                    <input name="nombre" type="text" placeholder="nombre" />
+                    <input name="apellido" type="text" placeholder="apellido" />
+                    <input name="empresa" type="text" placeholder="empresa" />
+                    <label for="tipoemp"></label>
+                    <select name="tipoemp" id="tipoemp">
+                        <option value="rigatoni">Estudio Arquitectura</option>
+                        <option value="dave">Constructora</option>
+                        <option value="pumpernickel">Desarrolladora</option>
+                    </select>
+                    <input name="cuit" type="text" placeholder="cuit" />
+                    <input name="usuario" type="text" placeholder="usuario" />
+                    <input name="password" type="password" placeholder="password" />
+                    <button id="registrarse" name="registrarse" type="submit" class="btn">agregar cliente</button>
+                </form>
+            </div>
+        </div>
+        <div class="clientes">
+<h3>+ agregar cliente</h3>
+            <ul>
+                <h2>lista clientes</h2>
+                <li>
+                    <div>
+                        <div>codigo cliente</div>
+                        <div>cliente</div>
+                        <hr>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <div>codigo cliente</div>
+                        <div>cliente</div>
+                        <hr>
+                    </div>
+                </li>
+
+                <li>
+                    <div>
+                        <div>codigo cliente</div>
+                        <div>cliente</div>
+                        <hr>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </div>
+   
+</body>
+
+</html>

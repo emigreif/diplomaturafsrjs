@@ -1,101 +1,121 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/prueba.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/prueba.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <header>
-        <h1>clientes</h1>
+      <h1>clientes</h1>
     </header>
     <nav>
-        <ul>
-            <li><a class="activo" href="">clientes</a></li>
-            <li><a href="">presupuestos</a></li>
-            <li><a href="">obras</a></li>
-            <li><a href="">produccion</a></li>
-            <li><a href="">cotizacion</a></li>
-            <li><a href="">pedidos</a></li>
-            <li><a href="">calendario fabricacion</a></li>
-            <li><a href="">calendario montaje</a></li>
-            <li><a href="">pendientes</a></li>
-            <li><a href="">facturacion</a></li>
-            <li><a href="">gastos</a></li>
-
-        </ul>
+      <ul>
+        <li><a class="activo" href="">clientes</a></li>
+        <li><a href="">proveedores</a></li>
+        <li><a href="">presupuestos</a></li>
+        <li><a href="">obras</a></li>
+        <li><a href="">produccion</a></li>
+        <li><a href="">cotizacion</a></li>
+        <li><a href="">pedidos</a></li>
+        <li><a href="">calendario fabricacion</a></li>
+        <li><a href="">calendario montaje</a></li>
+        <li><a href="">pendientes</a></li>
+        <li><a href="">reclamos</a></li>
+        <li><a href="">calculadora de costos</a></li>
+        <li><a href="">facturacion</a></li>
+        <li><a href="">gastos</a></li>
+      </ul>
     </nav>
     <div class="cont">
+      <div class="altacl">
+        <h2 style="border-bottom: white solid 1px">nuevo cliente</h2>
 
-        <div class="altacl">
-            <h2 style="border-bottom: white solid 1px;">nuevo cliente</h2>
-
-            <div class="chaca">
-                <input type="radio" id="empresa" name="drone" value="empresa" checked>
-                <label for="empresa">empresa</label>
-                <input type="radio" id="cliente final" name="drone" value="cliente final">
-                <label for="cliente final">cliente final</label>
-            </div>
+        <div class="chaca">
+          <input
+            type="radio"
+            id="empresa"
+            name="drone"
+            value="empresa"
+            checked
+          />
+          <label for="empresa">empresa</label>
+          <input
+            type="radio"
+            id="cliente final"
+            name="drone"
+            value="cliente final"
+          />
+          <label for="cliente final">cliente final</label>
+        </div>
+        <div>
+          <form class="formi" action="formulario" method="post">
+            <label for="tipoemp"></label>
+            <select name="tipoemp">
+              <option value="1">Estudio Arquitectura</option>
+              <option value="2">Constructora</option>
+              <option value="3">Desarrolladora</option>
+            </select>
+            <input
+              name="codigocliente"
+              type="text"
+              placeholder="codigo cliente"
+            />
+            <input name="nombre" type="text" placeholder="nombre" />
+            <input name="apellido" type="text" placeholder="apellido" />
+            <input name="empresa" type="text" placeholder="empresa" />
+            <input name="cuit" type="text" placeholder="cuit" />
+            <input name="usuario" type="text" placeholder="telefono" />
+            <input name="usuario" type="email" placeholder="mail" />
+            <button
+              id="registrarse"
+              name="registrarse"
+              type="submit"
+              class="btn"
+            >
+              agregar cliente
+            </button>
+          </form>
+        </div>
+      </div>
+      <div class="clientes">
+        <h3>+ agregar cliente</h3>
+        <h3>+ ayuda(como cargar los presupuestos)</h3>
+        <h3>buscador</h3>
+        <h3>
+          base con lista de clientes desde aca se puede redirigir nuevo
+          presupuesto o nueva obra y ver presupuestos y obras y reclamos
+        </h3>
+        <ul>
+          <h2>lista clientes</h2>
+          <li>
             <div>
-                <form class="formi" action="formulario" method="post">
-
-                    <input name="codigocliente" type="text" placeholder="codigo cliente" />
-                    <input name="nombre" type="text" placeholder="nombre" />
-                    <input name="apellido" type="text" placeholder="apellido" />
-                    <input name="empresa" type="text" placeholder="empresa" />
-                    <label for="tipoemp"></label>
-                    <select name="tipoemp">
-                        <option value="1">Estudio Arquitectura</option>
-                        <option value="2">Constructora</option>
-                        <option value="3">Desarrolladora</option>
-                    </select>
-                    <input name="cuit" type="text" placeholder="cuit" />
-                    <input name="usuario" type="text" placeholder="usuario" />
-                    <input name="password" type="password" placeholder="password" />
-                    <button id="registrarse" name="registrarse" type="submit" class="btn">agregar cliente</button>
-                </form>
+              <div>codigo cliente</div>
+              <div>cliente</div>
+              <hr />
             </div>
-        </div>
-        <div class="clientes">
-            <h3>+ agregar cliente</h3>
-            <h3>+ ayuda(como cargar los presupuestos)</h3>
-            <h3>buscador</h3>
-            <h3>base con lista de clientes desde aca se puede redirigir nuevo presupuesto o nueva obra</h3>
-            <ul>
-                <h2>lista clientes</h2>
-                <li>
-                    <div>
-                        <div>codigo cliente</div>
-                        <div>cliente</div>
-                        <hr>
-                    </div>
-                </li>
+          </li>
 
-                <li>
-                    <div>
-                        <div>codigo cliente</div>
-                        <div>cliente</div>
-                        <hr>
-                    </div>
-                </li>
+          <li>
+            <div>
+              <div>codigo cliente</div>
+              <div>cliente</div>
+              <hr />
+            </div>
+          </li>
 
-                <li>
-                    <div>
-                        <div>codigo cliente</div>
-                        <div>cliente</div>
-                        <hr>
-                    </div>
-                </li>
-
-
-            </ul>
-        </div>
+          <li>
+            <div>
+              <div>codigo cliente</div>
+              <div>cliente</div>
+              <hr />
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
-
-</body>
-
+  </body>
 </html>

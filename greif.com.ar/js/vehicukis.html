@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>prueba</title>
+</head>
+
+<body style="font-family:Arial, Helvetica, sans-serif ;font-size:xx-large;">
+	<!-- <script>
+
+		const kms = (prompt('Ingrese cantidad de kms:'));
+
+
+		if (isNaN(kms)) {
+			document.write(kms, ` no es un numero`);
+		}
+		else if (kms < 1000) {
+			document.write(`kms `, kms, ` ir a pie`);
+		}
+		else if (kms < 10000) {
+			document.write(`kms `, kms, ` ir en bicicleta`);
+		}
+		else if (kms < 30000) {
+			document.write(`kms `, kms, ` ir en colectivo`);
+		}
+		else if (kms < 100000) {
+			document.write(`kms `, kms, ` ir en auto`);
+		}
+		else {
+			document.write(`kms `, kms, ` ir en avion. `);
+		}
+
+	</script>
+	<script>
+		const j = (prompt('Ingrese cantidad de numeros:'));
+		var numeros = new Array();
+		numeros.length = j;
+		for (var i = 0; i < numeros.length; i++) {
+			numeros[i] = (prompt('Ingrese un numeros:'));
+		}
+
+		document.write('--------- ', numeros, '--------- ');
+		document.write(numeros.length, '--------- ');
+		var aux = 0;
+		var k = 0;
+		f = 0;
+		// for (var i = 0; i < numeros.length; i++) {
+		do {
+			f = 0;
+			for (var d = 0; d < (numeros.length); d++) {
+				k = d + 1;
+
+				if ((parseInt(numeros[d]) - parseInt(numeros[k])) < 0) {
+					aux = numeros[d];
+					numeros[d] = numeros[k];
+					numeros[k] = aux;
+					f--;
+				}
+				else {
+					f++;
+				}
+				document.write('----nd----- ', numeros[d], '-----nk---- ', numeros[k], '----f----- ', f);
+			} document.write('----nums----- ', numeros, '----numsle----- ', numeros.length, '-----f---- ', f, '--------- ');
+		} while (f < j);
+		document.write('----EL MAS GRANDE NO ES PELE ES:----- ', numeros[0]);
+
+	</script> -->
+	<script>
+		let j = (prompt('Ingrese cantidad de numeros:'));
+		var numeros = new Array();
+		numeros.length = j;
+		for (var i = 0; i < numeros.length; i++) {
+			numeros[i] = (prompt('Ingrese un numeros:'));
+			if (isNaN(numeros[i])) {
+				do { numeros[i] = (prompt('no es numero, Ingrese un numeros:')); }
+				while (isNaN(numeros[i]))
+			}
+		}
+
+		document.write('--------- ', numeros, '--------- ');
+		document.write(numeros.length, '--------- ');
+		var max = numeros[0];
+		var ubicacion = 0;
+
+		for (var i = 0; i < numeros.length; i++) {
+			if ((parseInt(max) - parseInt(numeros[i])) < 0) {
+				max = numeros[i];
+				ubicacion = i;
+
+			}
+		}
+
+		document.write('EL MAS GRANDE ES: ', max, '----ubicacion:----- ', ubicacion);
+
+
+	</script>
+
+
+
+</body>
+
+</html>

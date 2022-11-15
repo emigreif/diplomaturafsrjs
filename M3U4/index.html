@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="/js/prueba.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    sonIguales(1,1);
+    sonIguales(1,2);
+    <button
+      class="cuadrado"
+      style="width: 200px; height: 200px; border: solid 3px gold"
+    >
+      pepeppp
+    </button>
+    <button
+      class="cuadrado"
+      style="width: 200px; height: 200px; border: solid 3px gold"
+    >
+      pepeppp
+    </button>
+    <button
+      class="cuadrado"
+      style="width: 200px; height: 200px; border: solid 3px gold"
+    >
+      pepeppp
+    </button>
+
+    <script>
+      function sonIguales(x, y) {
+    // Devuelve "true" si "x" e "y" son iguales
+    // De lo contrario, devuelve "false"
+    // Tu código:
+    if(x===y){
+        iguales=true;
+        return iguales;
+    }else{
+        iguales=false;
+        return iguales;
+        
+    }
+         console.log(iguales);
+}
+
+      
+document.getElementsByClassName("cuadrado").addEventListener("click", cambiarColor);
+      const cuadrados = document.getElementsByClassName("cuadrado");
+      function cambiarColor() {
+        cuadrado.style.backgroundColor=black;
+      
+      }
+
+    </script>
+  </body>
+</html>

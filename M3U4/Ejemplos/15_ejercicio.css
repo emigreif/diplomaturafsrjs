@@ -1,0 +1,11 @@
+
+
+.alternar {
+    background: lightblue;
+}
+
+.alternar.activo {
+    background: blue;
+    color: white;
+}
+      

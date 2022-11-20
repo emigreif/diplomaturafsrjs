@@ -8,51 +8,29 @@
     <title>Document</title>
   </head>
   <body>
-    sonIguales(1,1);
-    sonIguales(1,2);
-    <button
-      class="cuadrado"
+    <div
+      id="cuadrado1"
+      onclick="cambiacolor('cuadrado1')"
       style="width: 200px; height: 200px; border: solid 3px gold"
-    >
-      pepeppp
-    </button>
-    <button
-      class="cuadrado"
+    ></div>
+    <div
+      id="cuadrado2"
+      onclick="cambiacolor('cuadrado1')"
       style="width: 200px; height: 200px; border: solid 3px gold"
-    >
-      pepeppp
-    </button>
-    <button
-      class="cuadrado"
+    ></div>
+    <div
+      id="cuadrado3"
+      onclick="cambiacolor('cuadrado3')"
       style="width: 200px; height: 200px; border: solid 3px gold"
-    >
-      pepeppp
-    </button>
+    ></div>
 
     <script>
-      function sonIguales(x, y) {
-    // Devuelve "true" si "x" e "y" son iguales
-    // De lo contrario, devuelve "false"
-    // Tu código:
-    if(x===y){
-        iguales=true;
-        return iguales;
-    }else{
-        iguales=false;
-        return iguales;
-        
-    }
-         console.log(iguales);
-}
-
-      
-document.getElementsByClassName("cuadrado").addEventListener("click", cambiarColor);
-      const cuadrados = document.getElementsByClassName("cuadrado");
-      function cambiarColor() {
-        cuadrado.style.backgroundColor=black;
-      
+      function cambiacolor(pep) {
+        const cuboPlano = document.getElementById(pep);
+        cuboPlano.style.backgroundColor = "blue";
       }
 
+  
     </script>
   </body>
 </html>

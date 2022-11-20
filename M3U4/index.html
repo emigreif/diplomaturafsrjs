@@ -7,28 +7,83 @@
     <title>Document</title>
   </head>
   <body>
-    <div
-      id="cuadrado1"
-      onclick="cambiacolor('cuadrado1')"
-      style="width: 200px; height: 200px; border: solid 3px gold"
-    ></div>
-    <div
-      id="cuadrado2"
-      onclick="cambiacolor('cuadrado2')"
-      style="width: 200px; height: 200px; border: solid 3px gold"
-    ></div>
-    <div
-      id="cuadrado3"
-      onclick="cambiacolor('cuadrado3')"
-      style="width: 200px; height: 200px; border: solid 3px gold"
-    ></div>
-
+    <!-- Ejercicio 1: Crear un documento html con 3 cuadrados que, al ser clickeados,
+    cambien el color de fondo del documento. Cada cuadrado debera tener un color
+    distinto.
+     -->
+    <div style="display: flex; gap: 20px; margin: 10px">
+      <div
+        id="cuadrado1"
+        onclick="cambiacolor('cuadrado1')"
+        style="width: 200px; height: 200px; border: solid 3px gold"
+      ></div>
+      <div
+        id="cuadrado2"
+        onclick="cambiacolor('cuadrado2')"
+        style="width: 200px; height: 200px; border: solid 3px gold"
+      ></div>
+      <div
+        id="cuadrado3"
+        onclick="cambiacolor('cuadrado3')"
+        style="width: 200px; height: 200px; border: solid 3px gold"
+      ></div>
+    </div>
     <script>
       function cambiacolor(pep) {
         const randomColor = Math.floor(Math.random() * 16777215).toString(16);
         const cuboPlano = document.getElementById(pep);
-        cuboPlano.style.backgroundColor =  "#" + randomColor;
+        cuboPlano.style.backgroundColor = "#" + randomColor;
+        document.body.style.backgroundColor = "#" + randomColor;
       }
+    </script>
+    <!-- Ejercicio 2: Programar un contador de caracteres para un textarea.  -->
+
+    <div style="display: flex; gap: 20px; margin: 10px">
+      <textarea id="texto" oninput="contarCaracteres()"></textarea>
+      <h2>Número de caracteres: <span id="contador"></span></h2>
+    </div>
+
+    <script>
+      function contarCaracteres() {
+        document.getElementById("contador").textContent =
+          document.getElementById("texto").value.length;
+      }
+    </script>
+
+    <!-- 
+
+Ejercicio 3: Dado el siguiente array de alumnos utilizar los métodos de array vistos para
+generar un array con los alumnos aprobados. Se considera aprobado todo alumno
+que tenga una nota mayor o igual a 7. 
+var alumnos = [ 
+ { nombre: 'Juan Gomez',nota: 7 },
+ { nombre: 'Pedro Rodriguez', nota: 4 },
+ { nombre: 'Roxana García',nota: 8 },
+ { nombre: 'Luciano Lopez', nota: 5 }, 
+ { nombre: 'Fernanda Gimenez',nota: 6 },
+ { nombre: 'Florencia Martinez', nota: 10 },
+ { nombre: 'Raul Sanchez', nota: 7 }, 
+ { nombre: 'Sandra Figueroa', nota: 8 } ]; 
+Subir a un repositorio publico en GitHub y compartir la URL del mismo/* -->
+
+    <script>
+      var alumnos = [
+        { nombre: "Juan Gomez", nota: 7 },
+        { nombre: "Pedro Rodriguez", nota: 4 },
+        { nombre: "Roxana García", nota: 8 },
+        { nombre: "Luciano Lopez", nota: 5 },
+        { nombre: "Fernanda Gimenez", nota: 6 },
+        { nombre: "Florencia Martinez", nota: 10 },
+        { nombre: "Raul Sanchez", nota: 7 },
+        { nombre: "Sandra Figueroa", nota: 8 },
+      ];
+      console.log(alumnos);
+      
+      var approved = alumnos.filter(alumno =>alumno.nota >= 7);
+      console.log(approved);
+
+     
+
     </script>
   </body>
 </html>

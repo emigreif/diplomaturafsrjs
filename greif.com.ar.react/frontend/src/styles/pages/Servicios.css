@@ -1,0 +1,36 @@
+.conteservicios {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin: 5px;
+
+  justify-content: space-between;
+  padding: 05px;
+}
+
+.servicio {
+  border: 1px solid gold;
+  text-align: justify;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  width: 30%;
+}
+
+.servicio .info h4 {
+  color: indigo;
+  font-weight: 500;
+  font-style: italic;
+  border-bottom: 1px solid indigo;
+  padding-bottom: 10px;
+}
+
+.serv {
+  font-size: large;
+  color: indigo;
+}
+
+.servicio .info p {
+  font-size: 13px;
+}

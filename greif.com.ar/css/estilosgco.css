@@ -1,220 +1,240 @@
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 16px;
-    line-height: 20px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
 }
 
 header {
-    background:
-        radial-gradient(circle farthest-side at 0% 50%, black 23.5%, rgba(240, 166, 17, 0) 0)21px 30px,
-        radial-gradient(circle farthest-side at 0% 50%, indigo 24%, rgba(240, 166, 17, 0) 0)19px 30px,
-        linear-gradient(black 14%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 85%, black 0)0 0,
-        linear-gradient(150deg, black 24%, indigo 0, indigo 26%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 74%, indigo 0, indigo 76%, black 0)0 0,
-        linear-gradient(30deg, black 24%, indigo 0, indigo 26%, rgba(240, 166, 17, 0) 0, rgba(240, 166, 17, 0) 74%, indigo 0, indigo 76%, black 0)0 0,
-        linear-gradient(90deg, indigo 2%, black 0, black 98%, indigo 0%)0 0 black;
-    background-size: 40px 60px;
-    background-color: black;
-    padding: 5px 0;
+  background: radial-gradient(
+        circle farthest-side at 0% 50%,
+        black 23.5%,
+        rgba(240, 166, 17, 0) 0
+      )
+      21px 30px,
+    radial-gradient(
+        circle farthest-side at 0% 50%,
+        indigo 24%,
+        rgba(240, 166, 17, 0) 0
+      )
+      19px 30px,
+    linear-gradient(
+        black 14%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 85%,
+        black 0
+      )
+      0 0,
+    linear-gradient(
+        150deg,
+        black 24%,
+        indigo 0,
+        indigo 26%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 74%,
+        indigo 0,
+        indigo 76%,
+        black 0
+      )
+      0 0,
+    linear-gradient(
+        30deg,
+        black 24%,
+        indigo 0,
+        indigo 26%,
+        rgba(240, 166, 17, 0) 0,
+        rgba(240, 166, 17, 0) 74%,
+        indigo 0,
+        indigo 76%,
+        black 0
+      )
+      0 0,
+    linear-gradient(90deg, indigo 2%, black 0, black 98%, indigo 0%) 0 0 black;
+  background-size: 40px 60px;
+  background-color: black;
+  padding: 5px 0;
 }
 
 header h1 {
-    color: white;
-    font-family: 'Jost', sans-serif;
-    font-size: 40px;
-    font-weight: 100;
-    display: inline-block;
-    position: relative;
-    bottom: 15px;
-    margin-left: 10px;
+  color: white;
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  font-weight: 100;
+  display: inline-block;
+  position: relative;
+  bottom: 15px;
+  margin-left: 10px;
 }
 
 nav {
-    background-color: black;
+  background-color: black;
 }
 
 nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 nav ul li {
-    flex-grow: 1;
+  flex-grow: 1;
 }
 
 nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 3px 6px;
-    display: block;
-    text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 3px 6px;
+  display: block;
+  text-align: center;
 }
 
 nav ul li a:hover {
-    background-color: rgb(47, 9, 85);
+  background-color: rgb(47, 9, 85);
 }
 
 nav ul li a.activo {
-    background-color: rgb(138, 93, 184);
+  background-color: rgb(138, 93, 184);
 }
 
 footer {
-    background-color: indigo;
-    clear: both;
-    color: white;
-    text-align: right;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-
-
+  background-color: indigo;
+  clear: both;
+  color: white;
+  text-align: right;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
 
 footer p {
-    font-size: small;
-    margin-right: 50px;
+  font-size: small;
+  margin-right: 50px;
 }
 
 .holder {
-    max-width: 960px;
-    margin: 0 auto;
-    margin-bottom: 80px;
+  max-width: 960px;
+  margin: 0 auto;
+  margin-bottom: 80px;
 }
 
 h2 {
-    color: indigo;
-    font-weight: 400;
+  color: indigo;
+  font-weight: 400;
 }
 
 .quienessomos {
-    padding-right: 10px;
-    box-sizing: border-box;
-    text-align: justify;
-    font-size: 18px;
-
+  padding-right: 10px;
+  box-sizing: border-box;
+  text-align: justify;
+  font-size: 18px;
 }
 
 .potencial {
-    text-align: center;
-    font-size: 25px;
-    font-style: italic;
-    font-weight: bolder;
+  text-align: center;
+  font-size: 25px;
+  font-style: italic;
+  font-weight: bolder;
 }
 
 .mision p {
-    text-align: justify;
+  text-align: justify;
 }
 
 .mision h3 {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 h3 {
-    color: indigo;
+  color: indigo;
 }
 
 .conteservicios {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-content: space-between;
-    margin: 5px;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-between;
+  margin: 5px;
 
-    justify-content: space-between;
-    padding: 05px;
+  justify-content: space-between;
+  padding: 05px;
 }
 
 .servicio {
-    border: 1px solid gold;
-    text-align: justify;
-    padding: 10px;
-    margin: 10px 0;
-    display: flex;
-    width: 30%;
+  border: 1px solid gold;
+  text-align: justify;
+  padding: 10px;
+  margin: 10px 0;
+  display: flex;
+  width: 30%;
 }
 
 .servicio .info h4 {
-    color: indigo;
-    font-weight: 500;
-    font-style: italic;
-    border-bottom: 1px solid indigo;
-    padding-bottom: 10px;
-
+  color: indigo;
+  font-weight: 500;
+  font-style: italic;
+  border-bottom: 1px solid indigo;
+  padding-bottom: 10px;
 }
 
 .serv {
-    font-size: large;
-    color: indigo;
+  font-size: large;
+  color: indigo;
 }
 
-
 .servicio .info p {
-    font-size: 13px;
-
+  font-size: 13px;
 }
 
 .info img {
-    max-width: 100%;
-
-
+  max-width: 100%;
 }
 
 .cursos {
-    margin-bottom: 100px;
-    text-align: justify;
+  margin-bottom: 100px;
+  text-align: justify;
 }
 
 .cursos h1 {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .contacto {
-    display: flex;
-    gap: 24px;
+  display: flex;
+  gap: 24px;
 }
 
 .contacto div {
-    width: 100%;
+  width: 100%;
 }
 
 .formcont {
-    width: 60%;
-
-
+  width: 60%;
 }
 
 .formdat {
-    width: 39%;
-
+  width: 39%;
 }
 
 .datos p {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .datos ul li {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .mapa {
-    border: 1px solid gold;
-
+  border: 1px solid gold;
 }
-
-
 
 .mapouter {
-    position: relative;
-    text-align: right;
-    width: 600px;
-    height: 400px;
+  position: relative;
+  text-align: right;
+  width: 600px;
+  height: 400px;
 }
-
-
 
 .gmap_iframe {
-    width: 600px !important;
-    height: 400px !important;
+  width: 600px !important;
+  height: 400px !important;
 }
-

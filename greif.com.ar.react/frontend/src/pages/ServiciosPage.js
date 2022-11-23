@@ -1,4 +1,6 @@
 import React from "react";
+import '../styles/pages/Servicios.css'
+
 const Servicios = (props) => {
   return (
     <main className="holder">

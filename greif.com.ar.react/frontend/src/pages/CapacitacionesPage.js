@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/pages/Capacitaciones.css'
 const Capacitaciones = (props) => {
   return (
     <main className="holder">

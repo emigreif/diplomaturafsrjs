@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/pages/Mision.css'
 const Mision = (props) => {
   return (
     <main class="holder">

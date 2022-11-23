@@ -1,4 +1,5 @@
 import React from "react";
+import '../styles/pages/Contacto.css'
 const Contacto = (props) => {
   return (
     <main className="holder contacto">

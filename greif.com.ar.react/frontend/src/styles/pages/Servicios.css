@@ -34,3 +34,7 @@
 .servicio .info p {
   font-size: 13px;
 }
+
+.info img {
+  max-width: 100%;
+}

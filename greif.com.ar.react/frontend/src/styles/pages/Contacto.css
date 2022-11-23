@@ -39,3 +39,43 @@
     height: 400px !important;
   }
   
+.contacto {
+  display: flex;
+  gap: 24px;
+}
+
+.contacto div {
+  width: 100%;
+}
+
+.formcont {
+  width: 60%;
+}
+
+.formdat {
+  width: 39%;
+}
+
+.datos p {
+  font-size: 20px;
+}
+
+.datos ul li {
+  font-size: 20px;
+}
+
+.mapa {
+  border: 1px solid gold;
+}
+
+.mapouter {
+  position: relative;
+  text-align: right;
+  width: 600px;
+  height: 400px;
+}
+
+.gmap_iframe {
+  width: 600px !important;
+  height: 400px !important;
+}

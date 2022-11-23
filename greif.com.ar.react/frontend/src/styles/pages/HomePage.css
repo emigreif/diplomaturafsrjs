@@ -1,0 +1,13 @@
+.quienessomos {
+    padding-right: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 18px;
+  }
+  
+  .potencial {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+  }
